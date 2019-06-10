@@ -5,8 +5,11 @@ import { Radio, Icon, Card, Grid, Image, Dropdown, Divider } from 'semantic-ui-r
 
 class HostInfo extends Component {
   state = {
-    options: [{key: "some_area" text: "Some Area" value: "some_area"}, {key: "another_area" text: "Another Area" value: "another_area"}],
-    value: "some_area",
+    options: [
+      {key: "some_area", text: "Some Area", value: "some_area"},
+      {key: "another_area", text: "Another Area", value: "another_area"}
+    ],
+    value: "some_area"
     // This state is just to show how the dropdown component works.
     // Options have to be formatted in this way (array of objects with keys of: key, text, value)
     // Value has to match the value in the object to render the right text.
