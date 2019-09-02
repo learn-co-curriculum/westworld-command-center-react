@@ -6,10 +6,10 @@ a.ui.raised.card.host {
 
 a.ui.raised.card.selected {
   border: 2px solid red;
-  borderRadius: 5px;
+  border-radius: 5px;
 }
 
 a.ui.raised.card.selected:hover {
   border: 2px solid red;
-  borderRadius: 5px;
+  border-radius: 5px;
 }
