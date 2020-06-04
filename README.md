@@ -10,7 +10,7 @@ The Executives at Delos Inc. need you to help them build some software for their
 
 Note on Styling
 ---------------
-The styling is a mix of pre-written CSS and Semantic components. Don't worry about it too much. As long as you're using the className's and id's we suggest everything should be fine. If you have a question about how one of the Semantic components works, search for the component in the Semantic docs for a complete run down:
+The styling is a mix of pre-written CSS and Semantic components. Don't worry about it too much. As long as you're using the classNames and id's we suggest everything should be fine. If you have a question about how one of the Semantic components works, search for the component in the Semantic docs for a complete run down:
 
 [Semantic UI React Docs](https://react.semantic-ui.com/)
 
@@ -68,11 +68,11 @@ Follow these rules for selecting and moving hosts:
 
 1. Clicking a `Host` selects them with a red border and displays their information in the `HostInfo` component. Styling has been given via classNames (see Host component).
 2. Only one `Host` can be selected at a time.
-3. Only one `Host` can exist on the screen at a time. If they're in `Cold Storage` then they're not on the `WestworldMap` and visa versa.
+3. Only one `Host` can exist on the screen at a time. If they're in `Cold Storage` then they're not on the `WestworldMap` and vice versa.
 4. If a host's `active` attribute is set to `false` then they are decommissioned and should appear in `ColdStorage`. The `HostInfo` radio button should reflect this as well, reading "Active" if `active: true` and "Decomissioned" if `active: false`.
 5. The Area dropdown should be pre-selected with the area the host is currently in, even if they are in `ColdStorage`.
 6. If a host is Active, selecting a new area from the dropdown should move that host to the corresponding area. If the host is Decommissioned they should not be able to leave `ColdStorage`, but their `area` attribute/dropdown should still update.
-7. Setting a hosts toggle to Decommissioned should immediately remove them from their area and place them in `ColdStorage`.
+7. Setting a host's toggle to Decommissioned should immediately remove them from their area and place them in `ColdStorage`.
 
 Checkpoint 6: Limit Hosts
 --------------------------
@@ -98,7 +98,7 @@ You should collect these in some type of array somewhere and give it to the `.ma
 
 At the very least you should be logging the following:
 
-##### 1) Setting a hosts area:
+##### 1) Setting a host's area:
 `Notify: {first name of host} set in area {formatted area name}`
 
 ##### 2) Activating a host:
