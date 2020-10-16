@@ -123,4 +123,3 @@ If you've completed all the Checkpoints, good for you because that is a ton! It 
 Contributing
 ------------
 If you find any bugs or have some suggestions, send a PR and we'll try to incorporate it!
-
